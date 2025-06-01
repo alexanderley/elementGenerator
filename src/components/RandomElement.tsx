@@ -10,15 +10,15 @@ const RandomElement: React.FC = () => {
   };
 
   const elements: Element[] = [
-    { id: 1, type: "Fire", img: "src/img/fire.png" },
-    { id: 2, type: "Water", img: "src/img/water.png" },
-    { id: 3, type: "Thunder", img: "src/img/thunder.png" },
-    { id: 4, type: "Grass", img: "src/img/grass.png" },
-    { id: 5, type: "Psychic", img: "src/img/psychic.png" },
-    { id: 6, type: "Darkness", img: "src/img/darkness.png" },
-    { id: 7, type: "Metal", img: "src/img/metal.png" },
-    { id: 8, type: "Colorless", img: "src/img/colorless.png" },
-    { id: 9, type: "Fighting", img: "src/img/fighting.png" },
+    { id: 1, type: "Fire", img: "fire.png" },
+    { id: 2, type: "Water", img: "water.png" },
+    { id: 3, type: "Thunder", img: "thunder.png" },
+    { id: 4, type: "Grass", img: "grass.png" },
+    { id: 5, type: "Psychic", img: "psychic.png" },
+    { id: 6, type: "Darkness", img: "darkness.png" },
+    { id: 7, type: "Metal", img: "metal.png" },
+    { id: 8, type: "Colorless", img: "colorless.png" },
+    { id: 9, type: "Fighting", img: "fighting.png" },
   ];
 
   const [selectedElement, setSelectedElement] = useState<Element | null>(null);
